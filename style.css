@@ -74,6 +74,15 @@ img:hover, a:hover {
   /* letter-spacing: 0.12em; */
 }
 
+.py-5 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.mb-5 {
+  margin-bottom: 80px;
+}
+
 .mx-auto {
   margin: 0 auto;
 }
@@ -93,3 +102,32 @@ img:hover, a:hover {
   width: 636px;
   height: 848px;
 }
+
+
+.cv-title {
+  font-size: var(--txt-lg);
+  border-bottom: 3px solid var(--color-primary);
+
+  color: var(--color-primary);
+
+}
+
+.cv-txt {
+  padding-top: 16px;
+  padding-bottom: 32px;
+
+  /* font-weight: 600; */
+  font-size: var(--txt-sm);
+}
+
+.cv-txt>li {
+  padding-bottom: 8px;
+}
+
+.cv-txt span {
+  font-size: var(--txt-xs);
+  font-style: italic;
+  color: var(--color-light);
+}
+
+/* end of main */
