@@ -65,6 +65,20 @@ img:hover, a:hover {
   height: 64px;
 }
 
+.fz-header {
+  font-size: var(--txt-xl);
+  /* letter-spacing: 0.12em; */
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+.text-right {
+  text-align: right;
+}
+
+
 /* end of base */
 
 .header-img {
