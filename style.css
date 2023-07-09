@@ -178,13 +178,17 @@ img:hover, a:hover {
   margin-left: auto;
 }
 
-.flex {
+.inline-block {
+  display: inline-block;
+}
+
+/* .flex {
   display: flex;
 }
 
 .justify-center {
   justify-content: center;
-}
+} */
 
 .text-right {
   text-align: right;
@@ -228,8 +232,12 @@ img:hover, a:hover {
 
 /* end of main */
 
-.sns-list {
+/* .sns-list {
   gap: 40px;
+} */
+
+.sns-list li {
+  margin-right: 40px;
 }
 
 .sns-list img:hover {
