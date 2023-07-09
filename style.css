@@ -79,9 +79,18 @@ img:hover, a:hover {
   background: var(--color-secondary);
 }
 
+.bg-black {
+  background: var(--color-black);
+}
+
 .py-3 {
   padding-top: 48px;
   padding-bottom: 48px;
+}
+
+.py-4 {
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .py-5 {
@@ -101,9 +110,22 @@ img:hover, a:hover {
   margin-left: auto;
 }
 
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
 .text-right {
   text-align: right;
 }
+
+.text-center {
+  text-align: center;
+}
+
 
 
 /* end of base */
@@ -141,3 +163,7 @@ img:hover, a:hover {
 }
 
 /* end of main */
+
+.sns-list {
+  gap: 40px;
+}
