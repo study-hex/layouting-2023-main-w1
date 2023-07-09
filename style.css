@@ -17,6 +17,7 @@
 
 :root {
   --color-primary: #ae0000;
+  --color-secondary: #EFEFEF;
   --color-black: #000000;
   --color-light: #949494;
 
@@ -72,6 +73,15 @@ img:hover, a:hover {
 .fz-header {
   font-size: var(--txt-xl);
   /* letter-spacing: 0.12em; */
+}
+
+.bg-secondary {
+  background: var(--color-secondary);
+}
+
+.py-3 {
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .py-5 {
