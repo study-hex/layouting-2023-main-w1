@@ -1,13 +1,13 @@
 /* @layer utility; */
 
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
 
   outline: 1px solid #f73;
-}
+} */
 
 *,
 *::before,
