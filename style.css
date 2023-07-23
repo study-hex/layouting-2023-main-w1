@@ -127,10 +127,6 @@ img:hover, a:hover {
   height: 64px;
 }
 
-.fz-header {
-  font-size: var(--txt-xl);
-  letter-spacing: 0.12em;
-}
 
 .bg-secondary {
   background: var(--color-secondary);
@@ -139,6 +135,7 @@ img:hover, a:hover {
 .bg-black {
   background: var(--color-black);
 }
+
 
 .py-3 {
   padding-top: 48px;
@@ -177,6 +174,20 @@ img:hover, a:hover {
 
 .mb-20 {
   margin-bottom: 80px;
+}
+
+.mr-10 {
+  margin-right: 40px;
+}
+
+
+.fz-header {
+  font-size: var(--txt-xl);
+  letter-spacing: 0.12em;
+}
+
+.font-sm {
+  font-size: var(--txt-sm);
 }
 
 /* end of base */
@@ -221,25 +232,32 @@ img:hover, a:hover {
 
 /* end of header */
 
-.cv-title {
+/* .cv-title {
   font-size: var(--txt-lg);
   border-bottom: 3px solid var(--color-primary);
 
   color: var(--color-primary);
+} */
 
-}
-
-.cv-txt {
-  /* padding-top: 16px;
-  padding-bottom: 32px; */
-
+/* padding-top: 16px;
+padding-bottom: 32px; */
+/* .cv-txt {
   font-size: var(--txt-sm);
-}
+} */
 
-.cv-txt-year {
-  font-size: var(--txt-xs);
-  font-style: italic;
-  color: var(--color-light);
+.cv {
+  .cv-title {
+    font-size: var(--txt-lg);
+    border-bottom: 3px solid var(--color-primary);
+
+    color: var(--color-primary);
+  }
+
+  .cv-txt-year {
+    font-size: var(--txt-xs);
+    font-style: italic;
+    color: var(--color-light);
+  }
 }
 
 /* end of main */
@@ -248,9 +266,9 @@ img:hover, a:hover {
   gap: 40px;
 } */
 
-.sns-list li {
+/* .sns-list li {
   margin-right: 40px;
-}
+} */
 
 .sns-list img:hover {
   animation: jump 1s infinite;
